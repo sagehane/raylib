@@ -1,0 +1,7 @@
+.{
+    .name = "raylib",
+    .version = "5.0.0",
+    .minimum_zig_version = "0.12.0",
+    .dependencies = .{ .@"raylib-lib" = .{ .path = "src" } },
+    .paths = .{""},
+}
